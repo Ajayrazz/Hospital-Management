@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.gallary_body{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid blue; */
+    height: 2000px;
+    width: 100%;
+    /* background-image: url("AdobeStock_685410236_Preview-transformed.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.galary_part1{
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+    height: 25%;
+    width: 100%;
+    background-image: url("stetes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.galary_part2{
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.gallary_part2_1{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 25%;
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.gallary_part2_left_top{
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+
+
+.gallary_part2_left_bottom{
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.gallary_part2_2{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 50%;
+    border: 1px solid pink;
+}
+
+.gallary_part2_3{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 25%;
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.gallary_part2_right_top{
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.gallary_part2_right_bottom{
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.galary_part3{
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+    height: 25%;
+    width: 100%;
+}
+
+
+.gallary_body_1{
+    height: 1500px;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.card121 {
+    width: 320px;
+    height: 350px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    background-image: url("gallar.jpg");
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transform-origin: right bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card121 .main-content {
+    flex: 1;
+  }
+  
+  .card121 .header span:first-child {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+  }
+  
+  .card121 .heading {
+    font-size: 24px;
+    margin: 24px 0 16px;
+    font-weight: 600;
+  }
+  
+  .card121 .categories {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .card121 .categories span {
+    background-color: #e81cff;
+    padding: 4px 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 50em;
+  }
+  
+  .card121 .footer {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+  }
+  
+  .card121:hover {
+    rotate: 8deg;
+  }
