@@ -116,7 +116,7 @@ body{
 .gallary_body_1{
     height: 1500px;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .card121 {
@@ -176,3 +176,42 @@ body{
   .card121:hover {
     rotate: 8deg;
   }
+
+
+
+  .card_gallary {
+    box-sizing: border-box;
+    width: 250px;
+    height: 350px;
+    background: rgba(217, 217, 217, 0.58);
+    background-image: url("gal2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(23, 12, 1);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .card_gallar:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .card_gallary:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
