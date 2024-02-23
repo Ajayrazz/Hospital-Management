@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     /* border: 1px solid blue; */
-    height: 2000px;
+    height: 1200px;
     width: 100%;
     /* background-image: url("AdobeStock_685410236_Preview-transformed.jpeg");
     background-repeat: no-repeat;
@@ -21,18 +21,18 @@ body{
 .galary_part1{
     margin: 0;
     padding: 0;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 25%;
     width: 100%;
-    background-image: url("stetes.jpg");
-    background-size: cover;
+    background-image: url("Stethoscope\ wallpaper\ for\ doctors.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .galary_part2{
     margin: 0;
     padding: 0;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 50%;
     width: 100%;
     display: flex;
@@ -45,7 +45,7 @@ body{
     padding: 0;
     height: 100%;
     width: 25%;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -56,7 +56,7 @@ body{
     padding: 0;
     height: 50%;
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 
@@ -66,7 +66,7 @@ body{
     padding: 0;
     height: 50%;
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .gallary_part2_2{
@@ -74,7 +74,7 @@ body{
     padding: 0;
     height: 100%;
     width: 50%;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 }
 
 .gallary_part2_3{
@@ -82,7 +82,7 @@ body{
     padding: 0;
     height: 100%;
     width: 25%;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -93,7 +93,7 @@ body{
     padding: 0;
     height: 50%;
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .gallary_part2_right_bottom{
@@ -101,13 +101,13 @@ body{
     padding: 0;
     height: 50%;
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .galary_part3{
     margin: 0;
     padding: 0;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 25%;
     width: 100%;
 }
@@ -179,12 +179,12 @@ body{
 
 
 
-  .card_gallary {
+  .card_gallary_1 {
     box-sizing: border-box;
     width: 250px;
     height: 350px;
     background: rgba(217, 217, 217, 0.58);
-    background-image: url("gal2.jpg");
+    background-image: url("operation1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -215,3 +215,85 @@ body{
     transform: scale(0.95) rotateZ(1.7deg);
   }
 
+
+  .card_gallary_2 {
+    box-sizing: border-box;
+    width: 250px;
+    height: 350px;
+    background: rgba(217, 217, 217, 0.58);
+    background-image: url("operation\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(23, 12, 1);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  
+  .card_gallary_3 {
+    box-sizing: border-box;
+    width: 250px;
+    height: 350px;
+    background: rgba(217, 217, 217, 0.58);
+    background-image: url("lady_group.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(23, 12, 1);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .card_gallary_4 {
+    box-sizing: border-box;
+    width: 250px;
+    height: 350px;
+    background: rgba(217, 217, 217, 0.58);
+    background-image: url("group.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(23, 12, 1);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
